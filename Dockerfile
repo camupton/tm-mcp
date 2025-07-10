@@ -1,10 +1,10 @@
 # ---- base image ----
-FROM node:18-alpine          # small, secure
+FROM node:18-alpine
 
 # install the MCP connector CLI once at build-time
 RUN npm install -g @typingmind/mcp
 
-# get the secret from Render’s env tab
+# token will come from Render’s env tab
 ENV MCP_AUTH_TOKEN=${MCP_AUTH_TOKEN}
 
 # start the connector; bind to all interfaces and Render’s injected $PORT
