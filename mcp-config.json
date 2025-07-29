@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "clickup": {
+      "args": ["-y", "@taazkareem/clickup-mcp-server@latest"],
+      "command": "npx"
+    },
+    "highlevel": {
+      "env": {
+        "SUPABASE_URL": "https://sshqmzleagwonfcphqyj.supabase.co",
+        "SUPABASE_SERVICE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNzaHFtemxlYWd3b25mY3BocXlqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMTg3ODkzNywiZXhwIjoyMDQ3NDU0OTM3fQ.XR-"
+      },
+      "args": ["-y", "@your-username/highlevel-mcp-server@latest"],
+      "command": "npx"
+    }
+  }
+}
